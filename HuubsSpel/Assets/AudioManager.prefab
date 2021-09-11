@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7739154054593210477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7739154054593210475}
+  - component: {fileID: 7739154054593210474}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7739154054593210475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7739154054593210477}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 314.815, y: 237, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7739154054593210474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7739154054593210477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e0d12123833b8d4b8f1e902b5fc1922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeMaster: 0
+  volumeMusic: 0
+  volumeMenu: 0
+  volumeEffects: 0
+  sounds:
+  - name: main menu
+    category: 0
+    clip: {fileID: 8300000, guid: 04c8c675574b72d4eaf78c0cde607b57, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: lobby ambience
+    category: 0
+    clip: {fileID: 8300000, guid: b9f7f58d0e36b824f828ace6f2c996e9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: onclick
+    category: 2
+    clip: {fileID: 8300000, guid: 029a23946f82adb45b33722936e72c8a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: onhover
+    category: 2
+    clip: {fileID: 8300000, guid: a96b9c97513ef8942ba6cf6b2201b134, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: dungeon 1
+    category: 0
+    clip: {fileID: 8300000, guid: 519a6be3f62c54b4f87f5ff51c703d22, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: testing
+    category: 1
+    clip: {fileID: 8300000, guid: 18b24ea60a890e0449229c58140e02eb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ugh
+    category: 1
+    clip: {fileID: 8300000, guid: fb31f9f83589cbb41bade7f735aa3121, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ugh kid
+    category: 1
+    clip: {fileID: 8300000, guid: 1b9d1ea648a1c624b8f527078ba582f2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: quack
+    category: 1
+    clip: {fileID: 8300000, guid: 8c828d74c5469f94aaa3e81ecf0dd5f7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: punch
+    category: 1
+    clip: {fileID: 8300000, guid: aaea9fe6fd5e5cd499a8827d0be14084, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: elevator open
+    category: 1
+    clip: {fileID: 8300000, guid: a167ae47de354e341a5860b9d684459b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: elevator close
+    category: 1
+    clip: {fileID: 8300000, guid: d84ee5093f6ce85498f8052f83061e86, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: elevator ding
+    category: 1
+    clip: {fileID: 8300000, guid: 99fa413250d23ba478821781eae1ca7c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: elevator button
+    category: 1
+    clip: {fileID: 8300000, guid: 042ad276451353a40b1706cde2c8bff3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: boss fight 1
+    category: 0
+    clip: {fileID: 8300000, guid: 5afd7be85bf3594488db5e63a65b9bdf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: laugh
+    category: 1
+    clip: {fileID: 8300000, guid: 7e3ee9af759487c4f8ef084c6ea8d53f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: elevator music
+    category: 0
+    clip: {fileID: 8300000, guid: 05fd2772c47d2694f9f267d170a0da77, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: spiketrap
+    category: 1
+    clip: {fileID: 8300000, guid: 3cdd60a913646b249a07f63d975a6832, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: portal
+    category: 1
+    clip: {fileID: 8300000, guid: 39d53ff75a4dae44281f44eccad51366, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: monster death
+    category: 1
+    clip: {fileID: 8300000, guid: 1288a361d002f2045b75d7db44477a67, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: new lever
+    category: 1
+    clip: {fileID: 8300000, guid: b97b606d07bd33841950f1dca4959781, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: portal close
+    category: 1
+    clip: {fileID: 8300000, guid: df13d0a37d1f0c043960d992ab512444, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: new lobby
+    category: 0
+    clip: {fileID: 8300000, guid: fff344b366541294795f2b43216b1611, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: player death
+    category: 1
+    clip: {fileID: 8300000, guid: ea7a7a1335ce68c43b2d3caf306f33ca, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: boss punch
+    category: 1
+    clip: {fileID: 8300000, guid: 4d846ebf23eaa6e4bbdfb9de70dfa017, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: statistics
+    category: 0
+    clip: {fileID: 8300000, guid: 0f2af1662cc18ee42a889d4e535271aa, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: lobby loop
+    category: 0
+    clip: {fileID: 8300000, guid: ba79ec386ff32374f8609875939389e1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
